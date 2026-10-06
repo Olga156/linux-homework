@@ -1,0 +1,24 @@
+  File "/Users/o/mistakes.py", line 1
+    print("Hello"
+         ^
+SyntaxError: '(' was never closed
+Traceback (most recent call last):
+  File "/Users/o/mistakes1.py", line 1, in <module>
+    print(age)
+          ^^^
+NameError: name 'age' is not defined
+Traceback (most recent call last):
+  File "/Users/o/mistakes2.py", line 1, in <module>
+    "Age:" + 18
+    ~~~~~~~^~~~
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/Users/o/mistakes3.py", line 1, in <module>
+    int("cat")
+    ~~~^^^^^^^
+ValueError: invalid literal for int() with base 10: 'cat'
+Traceback (most recent call last):
+  File "/Users/o/mistakes4.py", line 2, in <module>
+    print(sys.argv[1])
+          ~~~~~~~~^^^
+IndexError: list index out of range

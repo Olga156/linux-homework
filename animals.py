@@ -1,0 +1,6 @@
+print("cow")
+print("cat")
+print("dog")
+print("cow")
+print("cat")
+print("cow")
