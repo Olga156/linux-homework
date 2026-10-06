@@ -1,0 +1,8 @@
+name = input()
+group = input()
+age = input()
+print("===========")
+print("Name:", name)
+print("Group:", group)
+print("Age:", age)
+print("===========")
